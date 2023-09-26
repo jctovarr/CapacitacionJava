@@ -1,6 +1,6 @@
 package cursojava.paquet1;
 
-public class Habitacion extends LugarCasa {
+public class Habitacion extends Casa {
 
     public static void main(String[] args) {
         Habitacion habitacion = new Habitacion();
@@ -11,5 +11,10 @@ public class Habitacion extends LugarCasa {
 
     }
 
+    @Override
+    public String cocina() {
+        return "cenar";
     }
+
+}
 

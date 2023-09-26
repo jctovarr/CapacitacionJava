@@ -7,19 +7,7 @@ public class Casa {
     public  int ventanas = 4;
     public int puertas= 4;
 
-    public static void main(String[] args){
-        Casa casa = new Casa();
-        System.out.println(casa.habitacion);
-
-        String lavadero = cuartolavado();
-        System.out.println(lavadero);
-    }
-
-    static String cocina(){
-        return "Comer";
-    }
-
-    static String baño() {
+      static String baño() {
         return "bañarse";
     }
 
@@ -34,4 +22,8 @@ public class Casa {
     public static String recamra(){
         return "dormir";
     }
+
+    public String cocina(){
+        return "Comer";
+    };
 }
