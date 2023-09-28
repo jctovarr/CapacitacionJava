@@ -6,6 +6,7 @@ public class Casa {
     public int sillas = 4;
     public  int ventanas = 4;
     public int puertas= 4;
+    public int mesa = 1;
 
       static String baño() {
         return "bañarse";
