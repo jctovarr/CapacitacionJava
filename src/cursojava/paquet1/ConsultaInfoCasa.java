@@ -12,9 +12,8 @@ public class ConsultaInfoCasa {
         LugarCasa lugarcasa = new LugarCasa();
         System.out.println(lugarcasa.cocina());
 
-        /*Habitacion habitacion = new Habitacion();
+        Habitacion habitacion = new Habitacion();
         System.out.println(habitacion.cocina());
-         */
 
     }
 }
